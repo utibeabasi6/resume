@@ -94,7 +94,7 @@ export const contact = {
   details: [
     {
       icon: FiSmartphone,
-      data: 'tel:+2349030355665',
+      data: 'tel:+2347035667688',
     },
     {
       icon: HiOutlineMail,
