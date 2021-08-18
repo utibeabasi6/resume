@@ -1,10 +1,26 @@
-# Résumé
+# Résumé - HNG / ZURI / I4G
 
-<!-- ## Screenshots
+## Run simple cli program Locally
 
-![App Screenshot](https://pbs.twimg.com/media/E54GQX_WQAcbHdT?format=jpg&name=large) -->
+Clone the project
 
-## Run Locally
+```bash
+  git clone https://github.com/00mikhael/resume.git
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Run program
+
+```bash
+  node program.js
+```
+
+## Run app Locally
 
 Clone the project
 

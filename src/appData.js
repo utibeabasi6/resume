@@ -6,6 +6,9 @@ import { IoClose } from 'react-icons/io5';
 
 import Profile from './assets/profile.png';
 import Pattern from './assets/patternBG.png';
+import Hng from './assets/hng.jpg';
+import Zuri from './assets/zuri.jpg';
+import i4g from './assets/i4g.jpg';
 
 export const appData = {
   name: 'Michael Nwankwo',
@@ -13,7 +16,8 @@ export const appData = {
   image: Profile,
   Pattern: Pattern,
   MenuIcon: HiMenuAlt3,
-  CloseIcon: IoClose
+  CloseIcon: IoClose,
+  logos: [Hng, Zuri, i4g],
 };
 
 export const about = {
