@@ -77,9 +77,9 @@ const ContactForm = React.memo(({ isDialogOpen, setIsDialogOpen, notify }) => {
     setIsDialogOpen(false);
   }
 
-  if (state.errors) {
-    setIsDialogOpen(false);
-  }
+  // if (state.errors) {
+  //   setIsDialogOpen(false);
+  // }
 
   return (
     <Transition
