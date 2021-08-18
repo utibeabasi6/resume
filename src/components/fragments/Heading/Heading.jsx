@@ -1,8 +1,11 @@
 import React from 'react';
 
-const Heading = ({ title, subtitle, size, highlight, spacing, className }) => {
+const Heading = ({ title, subtitle, size, highlight, spacing, color, onClick, className }) => {
   return (
-    <div className={`${className} flex flex-col transition_all text-gray-500`}>
+    <div
+      onClick={onClick ? onClick : () => {}}
+      className={`${className} flex flex-col transition_all ${color ? color + ` cursor-pointer hover:underline` : `text-gray-500`}`}
+    >
       <span className={`${size === 3 ? `text-lg sm:text-xl` : size === 2 ? `text-2xl sm:text-4xl` : `text-4xl sm:text-6xl`} font-bold`}>{title}</span>
       {subtitle && highlight ? (
         <span className={`text-base my-4`}>

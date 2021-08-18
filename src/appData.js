@@ -2,6 +2,8 @@ import { FiGithub, FiTwitter, FiSmartphone, FiGlobe } from 'react-icons/fi';
 import { RiLinkedinLine, RiMailSendLine } from 'react-icons/ri';
 import { HiMenuAlt3, HiOutlineMail } from 'react-icons/hi';
 
+import { IoClose } from 'react-icons/io5';
+
 import Profile from './assets/profile.png';
 import Pattern from './assets/patternBG.png';
 
@@ -10,10 +12,8 @@ export const appData = {
   description: 'Frontend Developer',
   image: Profile,
   Pattern: Pattern,
-};
-
-export const menu = {
-  menuOpen: HiMenuAlt3,
+  MenuIcon: HiMenuAlt3,
+  CloseIcon: IoClose
 };
 
 export const about = {
@@ -48,7 +48,7 @@ export const experience = {
 };
 
 export const projects = {
-  title: 'Recent Projects',
+  title: 'Personal Projects',
   data: [
     {
       title: 'Survey Ninja',
