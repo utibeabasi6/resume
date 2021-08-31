@@ -28,6 +28,16 @@ export const about = {
 export const experience = {
   title: 'Experience',
   data: [
+    // {
+    //   title: 'Frontend Developer',
+    //   company: 'ChekkitApp Technologies Corp',
+    //   year: '2021',
+    //   duties: [
+    //     'Document the companies software architecture',
+    //     'Build and maintain the companies mobile app',
+    //     'Build and maintain the companies frontend web application',
+    //   ],
+    // },
     {
       title: 'Frontend Developer',
       company: 'PayedIn Technologies Limited',

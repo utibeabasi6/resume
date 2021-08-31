@@ -24,7 +24,7 @@ function App() {
       <Drawer show={drawerOpen} toggleDrawer={toggleDrawer} />
       <BackDrop show={drawerOpen} toggleDrawer={toggleDrawer} />
       <Base>
-        <Aside className={`hidden lg:block`} />
+        <Aside className={`hidden`} />
         <div className={`min-h-screen flex-1 flex flex-col justify-between`}>
           <div>
             <Header toggleDrawer={toggleDrawer} />

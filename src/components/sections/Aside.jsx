@@ -9,26 +9,28 @@ import Skills from './Skills';
 
 const Aside = ({ className }) => {
   return (
-    <div style={{ backgroundColor: '#f8f4f4' }} className={`${className} min-h-screen max-w-sm w-full`}>
-      <ProfileImage />
-      <FadeIn>
-        <Contact />
-        <Education />
-        <Skills />
-        <div className={`flex items-center justify-evenly pb-8`}>
-          {data.socials.map((link, idx) => {
-            return (
-              <link.icon
-                onClick={() => {
-                  window.open(link.url);
-                }}
-                className={`text-base font-medium hover:text-green-500 select-none cursor-pointer`}
-                key={idx}
-              />
-            );
-          })}
-        </div>
-      </FadeIn>
+    <div style={{ backgroundColor: '#f8f4f4' }} className={`${className} min-h-screen max-w-sm w-full lg:flex flex-col justify-between`}>
+      <div>
+        <ProfileImage />
+        <FadeIn>
+          <Contact />
+          <Education />
+          <Skills />
+        </FadeIn>
+      </div>
+      <div className={`flex items-center justify-evenly pb-8 `}>
+        {data.socials.map((link, idx) => {
+          return (
+            <link.icon
+              onClick={() => {
+                window.open(link.url);
+              }}
+              className={`text-base font-medium hover:text-green-500 select-none cursor-pointer`}
+              key={idx}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 };
