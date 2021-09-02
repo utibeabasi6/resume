@@ -1,16 +1,13 @@
 {
   "name": "resume",
   "version": "0.1.0",
-  "description": "Michael Nwankwo Résumé",
+  "description": "Utibeabasi Umanah Résumé",
   "private": true,
   "main": "src/index.js",
   "keywords": [],
-  "author": "Michael Nwankwo",
+  "author": "Utibeabasi Umanah",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/00mikhael/resume.git"
-  },
+  "repository": "https://github.com/utibeabasi6/resume.git",
   "dependencies": {
     "@craco/craco": "^6.1.1",
     "@formspree/react": "^2.2.3",

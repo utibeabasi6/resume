@@ -1,5 +1,5 @@
-import { FiGithub, FiTwitter, FiSmartphone, FiGlobe } from 'react-icons/fi';
-import { RiLinkedinLine, RiMailSendLine } from 'react-icons/ri';
+import { FiGithub, FiSmartphone, FiGlobe } from 'react-icons/fi';
+import { RiMailSendLine } from 'react-icons/ri';
 import { HiMenuAlt3, HiOutlineMail } from 'react-icons/hi';
 
 import { IoClose } from 'react-icons/io5';
@@ -11,8 +11,8 @@ import Zuri from './assets/zuri.jpg';
 import i4g from './assets/i4g.jpg';
 
 export const appData = {
-  name: 'Michael Nwankwo',
-  description: 'Frontend Developer',
+  name: 'Utibeabasi Umanah',
+  description: 'DevOps Engineer',
   image: Profile,
   Pattern: Pattern,
   MenuIcon: HiMenuAlt3,
@@ -22,42 +22,29 @@ export const appData = {
 
 export const about = {
   title: 'Profile',
-  text: 'Michael is a Frontend Developer with 4 years of experience building Web and Mobile Applications. He is passionate about building modern and accessible user interfaces that delights users',
+  text: 'Utibeabasi Umanah is a DevOps engineer and Fullstack developer with over 2 years of experience. He is passionate about integrating devops culture to automate the developer workflow',
 };
 
 export const experience = {
   title: 'Experience',
   data: [
     {
-      title: 'Frontend Developer',
-      company: 'ChekkitApp Technologies Corp',
+      title: 'DevOps Engineer',
+      company: 'HNGi8 Internship',
       year: '2021',
       duties: [
-        'Document the companies software architecture',
-        'Build and maintain the companies mobile app',
-        'Build and maintain the companies frontend web application',
+        'Configure and manage servers',
+        'Build and maintain CI/CD pipelines for teams',
       ],
     },
     {
-      title: 'Frontend Developer',
-      company: 'PayedIn Technologies Limited',
+      title: 'Backend Developer',
+      company: 'Zuri Internship',
       year: '2021',
       duties: [
-        'Document the companies software architecture',
-        'Build and maintain the companies mobile app',
-        'Build and maintain the companies frontend web application',
+        'Help build the backend of a fitness website',
       ],
-    },
-    {
-      title: 'Mobile Developer',
-      company: 'Innovation Growth Hub',
-      year: '2019',
-      duties: [
-        'Created custom mobile applications using native technologies',
-        'Collaborated with project managers to assess progress of each task',
-        'Reported status to clients to maintain open communication and promote satisfaction',
-      ],
-    },
+    }
   ],
 };
 
@@ -65,34 +52,10 @@ export const projects = {
   title: 'Personal Projects',
   data: [
     {
-      title: 'Survey Ninja',
-      description: 'Web app to collect survey responses',
-      url: 'https://survey-ninja.vercel.app',
-      stack: ['React', 'Node', 'Express', 'MongoDB'],
-    },
-    {
-      title: 'Foddi',
-      description: "An imaginary foddie's page",
-      url: 'https://foddi-page.vercel.app',
-      stack: ['Next'],
-    },
-    {
-      title: 'Posty',
-      description: 'Web app built to simulate a multi-user blogging platform',
-      url: 'https://post-app-mu.vercel.app',
-      stack: ['React', 'Node', 'Express', 'MongoDB'],
-    },
-    {
-      title: 'Qui Zap',
-      description: 'Web app built to simulate a quiz application',
-      url: 'https://qui-zap.vercel.app/',
-      stack: ['React', 'Node', 'Express'],
-    },
-    {
-      title: 'Shopper',
-      description: 'A reactive shopping cart',
-      url: 'https://shopper-sand.vercel.app/',
-      stack: ['React'],
+      title: 'Online store',
+      description: 'Online store built with django',
+      url: 'https://utibestore.herokuapp.com',
+      stack: ['django', 'Postgres'],
     },
   ],
 };
@@ -104,30 +67,30 @@ export const contact = {
   details: [
     {
       icon: FiSmartphone,
-      data: 'tel:+2347035667688',
+      data: 'tel:+2349030809169',
     },
     {
       icon: HiOutlineMail,
-      data: 'mailto:mikhaelnwankwo@gmail.com',
+      data: 'mailto:utibeabasiumanah6@gmail.com',
     },
     {
       icon: FiGlobe,
-      data: 'https://www.mikhael.xyz',
+      data: 'https://www.utibeumanah.xyz',
     },
   ],
   socials: [
     {
-      url: 'https://github.com/00mikhael',
+      url: 'https://github.com/utibeabasi6',
       icon: FiGithub,
     },
-    {
-      url: 'https://linkedin.com/in/mikhaelnwankwo',
-      icon: RiLinkedinLine,
-    },
-    {
-      url: 'https://twitter.com/00mikhael',
-      icon: FiTwitter,
-    },
+    // {
+    //   url: 'https://linkedin.com/in/mikhaelnwankwo',
+    //   icon: RiLinkedinLine,
+    // },
+    // {
+    //   url: 'https://twitter.com/00mikhael',
+    //   icon: FiTwitter,
+    // },
   ],
 };
 
@@ -135,14 +98,14 @@ export const education = {
   title: 'Education',
   data: [
     {
-      degree: 'B.Sc Industrial Chemistry',
-      school: 'Abia State University',
-      year: '2011 - 2015',
+      degree: 'B.Sc Computer engineering',
+      school: 'University of Uyo',
+      year: '2021 - Present',
     },
     {
       degree: 'SSCE',
-      school: 'Bishop Nwedo Memorial Boys High',
-      year: '2006 - 2011',
+      school: 'Bright Future College',
+      year: '2014 - 2020',
     },
   ],
 };
@@ -151,16 +114,36 @@ export const skills = {
   title: 'Skills',
   data: [
     {
-      title: 'Professional',
-      data: ['Git', 'Html', 'Css', 'Javascript', 'Java', 'ReactJS', 'VueJS', 'NodeJS', 'ExpressJs', 'MongoDB'],
+      title: 'IAAC/Configuration management',
+      data: ['Terraform', 'Pulumi', 'AWS CloudFormation', 'Ansible'],
     },
     {
-      title: 'Soft',
-      data: ['Clear verbal and written communication', 'Empathy', 'Critical reasoning', 'Technical reasoning', 'Team player'],
+      title: 'Cloud',
+      data: ['AWS', 'Heroku'],
+    },
+    {
+      title: 'Linux',
+      data: ['Python', 'Bash scripting', 'Automation', 'Linux administration'],
+    },
+    {
+      title: 'CI/CD',
+      data: ['Git', 'Github actions', 'AWS CodePipeline', 'Jenkins'],
+    },
+    {
+      title: 'Containerization/Orchestration',
+      data: ['Docker', 'Docker compose', 'AWS ECS', 'Kubernetes'],
+    },
+    {
+      title: 'Monitoring',
+      data: ['Prometheus/Grafana', 'Freshping', 'ELK'],
+    },
+    {
+      title: 'Fullstack development',
+      data: ['Python', 'Javascript', 'HTML/CSS', 'Golang', 'Dart'],
     },
   ],
 };
 
 export const footer = {
-  copyright: ' 2021 Michael Nwankwo',
+  copyright: ' 2021 Utibeabasi Umanahß',
 };

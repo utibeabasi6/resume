@@ -11,7 +11,7 @@ const Skills = () => {
   return (
     <Container className={`mb-12`}>
       <SectionHeading className={`uppercase`} title={data.title} />
-      <div className={`space-y-12 mt-6`}>
+      <div className={`space-y-12 mt-6 skills`}>
         {data.data.map((item, idx) => {
           return <Item key={idx} item={item} />;
         })}

@@ -5,7 +5,6 @@ import { contact as data } from '../../appData';
 import ProfileImage from './ProfileImage';
 import Contact from './Contact';
 import Education from './Education';
-import Skills from './Skills';
 
 const Aside = ({ className }) => {
   return (
@@ -15,7 +14,6 @@ const Aside = ({ className }) => {
         <FadeIn>
           <Contact />
           <Education />
-          <Skills />
         </FadeIn>
       </div>
       <div className={`flex items-center justify-evenly pb-8 `}>
