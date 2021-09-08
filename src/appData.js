@@ -114,7 +114,7 @@ export const skills = {
   title: 'Skills',
   data: [
     {
-      title: 'IAAC/Configuration management',
+      title: 'IAAC / Configuration management',
       data: ['Terraform', 'Pulumi', 'AWS CloudFormation', 'Ansible'],
     },
     {
@@ -130,12 +130,12 @@ export const skills = {
       data: ['Git', 'Github actions', 'AWS CodePipeline', 'Jenkins'],
     },
     {
-      title: 'Containerization/Orchestration',
+      title: 'Containerization / Orchestration',
       data: ['Docker', 'Docker compose', 'AWS ECS', 'Kubernetes'],
     },
     {
-      title: 'Monitoring',
-      data: ['Prometheus/Grafana', 'Freshping', 'ELK'],
+      title: 'Monitoring / Logging',
+      data: ['Prometheus/Grafana', 'Freshping', 'ELK', 'Slack'],
     },
     {
       title: 'Fullstack development',
