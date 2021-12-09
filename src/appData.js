@@ -29,12 +29,27 @@ export const experience = {
   title: 'Experience',
   data: [
     {
+      title: 'DevOps freelancer',
+      company: 'Upwork',
+      year: '2021',
+      duties: [
+        'Implement Infrastructure as Code to setup various cloud environment',
+        'Build, dockerize and deploy microservices to Kubernetes clusters',
+        'Simplify the deployment of microservices using Helm to a simple helm install command',
+        'Build CI/CD pipelines to deploy applications to various environments which include Virtual machines, Kubernetes clusters, ECS, Elastic beanstalk etc',
+        'Setup cloud infrastructure on AWS and prepare the environment for deployment'
+        '
+      ],
+    },
+    {
       title: 'DevOps Engineer',
       company: 'HNGi8 Internship',
       year: '2021',
       duties: [
         'Configure and manage servers',
-        'Build and maintain CI/CD pipelines for teams',
+        'Build and maintain resilient CI/CD pipelines that can handle hndreds of developers pushing code',
+        'Cut down build duration by offloading the build process to a seperate server',
+        'Manage the build and release of applications for 3 teams'
       ],
     },
     {
@@ -57,6 +72,18 @@ export const projects = {
       url: 'https://utibestore.herokuapp.com',
       stack: ['django', 'Postgres'],
     },
+    {
+      title: 'Personal Portfolio',
+      description: 'My personal website',
+      url: 'https://utibeumanah.herokuapp.com',
+      stack: ['django'],
+    },
+    {
+      title: 'Personal blog',
+      description: 'My personal blog where I write about DevOps and Tech',
+      url: 'https://utibeabasiumanah6.medium.com/',
+      stack: ['Technical writing'],
+    },
   ],
 };
 
@@ -73,24 +100,20 @@ export const contact = {
       icon: HiOutlineMail,
       data: 'mailto:utibeabasiumanah6@gmail.com',
     },
-    {
-      icon: FiGlobe,
-      data: 'https://www.utibeumanah.xyz',
-    },
   ],
   socials: [
     {
       url: 'https://github.com/utibeabasi6',
       icon: FiGithub,
     },
-    // {
-    //   url: 'https://linkedin.com/in/mikhaelnwankwo',
-    //   icon: RiLinkedinLine,
-    // },
-    // {
-    //   url: 'https://twitter.com/00mikhael',
-    //   icon: FiTwitter,
-    // },
+    {
+      url: 'https://linkedin.com/in/utibeabasiumanah',
+      icon: RiLinkedinLine,
+    },
+    {
+      url: 'https://twitter.com/utibeumanah_',
+      icon: FiTwitter,
+    },
   ],
 };
 
