@@ -1,5 +1,5 @@
-import { FiGithub, FiSmartphone, FiGlobe } from 'react-icons/fi';
-import { RiMailSendLine } from 'react-icons/ri';
+import { FiGithub, FiSmartphone, FiTwitter } from 'react-icons/fi';
+import { RiMailSendLine, RiLinkedinLine } from 'react-icons/ri';
 import { HiMenuAlt3, HiOutlineMail } from 'react-icons/hi';
 
 import { IoClose } from 'react-icons/io5';
