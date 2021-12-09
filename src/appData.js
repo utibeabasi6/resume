@@ -38,7 +38,7 @@ export const experience = {
         'Simplify the deployment of microservices using Helm to a simple helm install command',
         'Build CI/CD pipelines to deploy applications to various environments which include Virtual machines, Kubernetes clusters, ECS, Elastic beanstalk etc',
         'Setup cloud infrastructure on AWS and prepare the environment for deployment'
-        '
+        
       ],
     },
     {
