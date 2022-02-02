@@ -22,7 +22,7 @@ export const appData = {
 
 export const about = {
   title: 'Profile',
-  text: 'Utibeabasi Umanah is a DevOps engineer and Fullstack developer with over 1+ year of experience. He is passionate about integrating devops culture to automate the developer workflow',
+  text: 'Utibeabasi Umanah is a DevOps engineer and Fullstack developer with 1+ years of experience. He is passionate about integrating devops culture to automate the developer workflow',
 };
 
 export const experience = {
