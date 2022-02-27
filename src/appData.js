@@ -28,6 +28,14 @@ export const about = {
 export const experience = {
   title: 'Experience',
   data: [
+      {
+      title: 'Technical writer',
+      company: 'Ambassador labs',
+      year: '2021',
+      duties: [
+        'Create technical content centered around Kubernetes'
+      ],
+    },
     {
       title: 'DevOps freelancer',
       company: 'Upwork',
