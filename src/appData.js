@@ -22,7 +22,7 @@ export const appData = {
 
 export const about = {
   title: 'Profile',
-  text: 'Utibeabasi Umanah is a DevOps engineer and Fullstack developer with 1+ years of experience. He is passionate about integrating devops culture to automate the developer workflow',
+  text: 'Utibeabasi Umanah is a DevOps engineer with Fullstack developer experience. He is passionate about integrating DevOps culture to automate the developer workflow',
 };
 
 export const experience = {
@@ -93,10 +93,6 @@ export const contact = {
   buttonIcon: RiMailSendLine,
   details: [
     {
-      icon: FiSmartphone,
-      data: 'tel:+2349030809169',
-    },
-    {
       icon: HiOutlineMail,
       data: 'mailto:utibeabasiumanah6@gmail.com',
     },
@@ -123,7 +119,7 @@ export const education = {
     {
       degree: 'B.Sc Computer engineering',
       school: 'University of Uyo',
-      year: '2021 - Present',
+      year: '2020 - Present',
     },
     {
       degree: 'SSCE',
