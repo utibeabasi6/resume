@@ -1,4 +1,4 @@
-import { FiGithub, FiSmartphone, FiTwitter } from 'react-icons/fi';
+import { FiGithub, FiTwitter } from 'react-icons/fi';
 import { RiMailSendLine, RiLinkedinLine } from 'react-icons/ri';
 import { HiMenuAlt3, HiOutlineMail } from 'react-icons/hi';
 
