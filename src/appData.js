@@ -31,7 +31,7 @@ export const experience = {
       {
       title: 'Technical writer',
       company: 'Ambassador labs',
-      year: '2021',
+      year: '2022',
       duties: [
         'Create technical content centered around Kubernetes'
       ],
